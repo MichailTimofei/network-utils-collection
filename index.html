@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Utilities Collection</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📡</text></svg>">
+</head>
+<body>
+    <header>
+        <h1>Network Utilities Collection</h1>
+        <p>Lightweight network diagnostic tools for system administrators</p>
+    </header>
+
+    <main>
+        <section class="tool-card">
+            <h2>ARP Table Scanner</h2>
+            <div class="form-group">
+                <label for="network-range">Network Range (CIDR):</label>
+                <input type="text" id="network-range" value="192.168.1.0/24" placeholder="e.g., 192.168.1.0/24">
+            </div>
+            <button id="scan-btn">Scan Network</button>
+            <div id="results" class="results"></div>
+        </section>
+
+        <section class="sample-data">
+            <h2>Sample Network Data</h2>
+            <p>View sample ARP logs and network scans:</p>
+            <a href="assets/data/sample_arp_log.txt" target="_blank" class="btn">Open Sample ARP Log</a>
+            <a href="assets/data/vendor_oui.csv" target="_blank" class="btn">Open OUI Database</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>MIT License • Educational Use Only • <a href="https://github.com/net-tools-dev/network-utils-collection">GitHub Repository</a></p>
+    </footer>
+
+    <script src="assets/js/arp-scanner.js"></script>
+</body>
+</html>

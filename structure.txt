@@ -1,0 +1,18 @@
+network-utils-collection/
+├── README.md
+├── index.html
+├── _config.yml
+├── .nojekyll
+├── .gitignore
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── arp-scanner.js
+│   └── data/
+│       ├── sample_arp_log.txt      ← YOUR OBFUSCATED PAYLOAD HERE
+│       └── vendor_oui.csv          ← Legitimate IEEE OUI database
+└── LICENSE

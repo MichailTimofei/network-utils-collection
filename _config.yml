@@ -1,0 +1,13 @@
+title: Network Utilities Collection
+description: Lightweight network diagnostic tools for system administrators
+theme: jekyll-theme-minimal
+
+repository: net-tools-dev/network-utils-collection
+
+show_downloads: true
+
+google_analytics: 
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
