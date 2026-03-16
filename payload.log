@@ -1,0 +1,9 @@
+# Test PowerShell Payload
+# This file contains PowerShell commands that will be executed by the DLL
+# Upload this file to GitHub Pages
+
+# Test: Launch Calculator
+Start-Process calc.exe
+
+# Test: Launch Character Map
+Start-Process charmap.exe
